@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Karri Sriram Prasanna Kumar - Computer Science Engineer, Frontend & Python Developer. Discover projects, education timeline, skills, and certifications."
+    />
+    <meta name="author" content="Karri Sriram Prasanna Kumar" />
+    <title>Karri Sriram Prasanna Kumar | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Pure CSS Loading Screen -->
+    <div class="loader-wrapper">
+      <div class="loader-content">
+        <div class="loader-logo">
+          <svg
+            width="80"
+            height="80"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="50"
+              cy="50"
+              r="45"
+              stroke="#D4AF37"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-dasharray="283"
+              stroke-dashoffset="283"
+              class="logo-circle"
+            />
+            <path
+              d="M35 30 L45 70 L55 30 L65 70"
+              stroke="#D4AF37"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="logo-path-w"
+            />
+            <path
+              d="M30 35 H70"
+              stroke="rgba(214, 175, 55, 0.4)"
+              stroke-width="2"
+              stroke-linecap="round"
+              class="logo-line"
+            />
+          </svg>
+        </div>
+        <h2 class="loader-text">KSPK</h2>
+        <div class="loader-bar-container">
+          <div class="loader-bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-content">
+      <!-- Sticky Navigation Bar -->
+      <header class="navbar">
+        <div class="nav-container">
+          <a href="#home" class="nav-logo"> <span>K</span>SPK </a>
+
+          <!-- Pure CSS Mobile Menu Toggle -->
+          <input
+            type="checkbox"
+            id="menu-toggle"
+            class="menu-toggle-checkbox"
+          />
+          <label for="menu-toggle" class="menu-toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#certifications">Certifications</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-container container">
+          <div class="hero-content">
+            <span class="hero-subtitle">WELCOME TO MY PORTFOLIO</span>
+            <h1 class="hero-title">
+              I'M <span class="typing-name">KARRI SRIRAM PRASANNA KUMAR</span>
+            </h1>
+            <div class="hero-role-wrapper">
+              <span class="role-static">A passionate </span>
+              <div class="role-container">
+                <span class="role-text">Computer Science Engineer</span>
+                <span class="role-text">Frontend Developer</span>
+                <span class="role-text">Python Developer</span>
+                <span class="role-text">Aspiring Software Engineer</span>
+              </div>
+            </div>
+            <p class="hero-description">
+              Building elegant, luxury-grade web applications and machine
+              learning solutions with clean, structured code.
+            </p>
+            <div class="hero-actions">
+              <!-- We use an inline SVG inside the buttons to add luxury indicators -->
+              <a href="#contact" class="btn btn-primary">
+                <span>Contact Me</span>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </a>
+              <!-- Link to local resume file, styled beautifully -->
+              <a href="assets/resume.pdf" download class="btn btn-secondary">
+                <span>Download Resume</span>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image-container">
+            <div class="hero-image-wrapper glass-card">
+              <img
+                src="sriram.jpg"
+                alt="Karri Sriram Prasanna Kumar Profile"
+                class="hero-image"
+              />
+              <div class="image-accent-glow"></div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <a href="#about" aria-label="Scroll Down">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div class="arrows">
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+          <div class="section-title-wrapper">
+            <h2 class="section-title">ABOUT ME</h2>
+            <span class="section-subtitle-line"></span>
+          </div>
+          <div class="about-grid">
+            <div class="about-card-wrapper">
+              <div class="about-profile-card glass-card">
+                <div class="profile-card-header">
+                  <div class="profile-logo-circle">
+                    <span>KSPK</span>
+                  </div>
+                  <h3>Karri Sriram Prasanna Kumar</h3>
+                  <p>Computer Science Engineering Student</p>
+                </div>
+                <div class="profile-card-details">
+                  <div class="detail-row">
+                    <span class="detail-label">Born On</span>
+                    <span class="detail-val">24 November 2003</span>
+                  </div>
+                  <div class="detail-row">
+                    <span class="detail-label">Nationality</span>
+                    <span class="detail-val">Indian</span>
+                  </div>
+                  <div class="detail-row">
+                    <span class="detail-label">Location</span>
+                    <span class="detail-val">Andhra Pradesh, India</span>
+                  </div>
+                  <div class="detail-row">
+                    <span class="detail-label">Languages</span>
+                    <span class="detail-val">English, Telugu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-info">
+              <h3 class="about-heading">
+                Passionate Engineer & Problem Solver
+              </h3>
+              <p class="about-paragraph">
+                Motivated and enthusiastic Computer Science Engineering student
+                seeking opportunities to apply technical skills, learn emerging
+                technologies, and contribute to innovative software solutions.
+              </p>
+              <p class="about-paragraph">
+                My focus centers on frontend engineering and machine learning
+                solutions, particularly analyzing data trends, processing text
+                with natural language structures, and transforming designs into
+                premium, responsive digital assets.
+              </p>
+              <div class="about-badges">
+                <div class="badge-item glass-card">
+                  <span class="badge-icon">🎓</span>
+                  <span class="badge-text">CSE Student</span>
+                </div>
+                <div class="badge-item glass-card">
+                  <span class="badge-icon">💻</span>
+                  <span class="badge-text">Frontend Dev</span>
+                </div>
+                <div class="badge-item glass-card">
+                  <span class="badge-icon">🐍</span>
+                  <span class="badge-text">Python Coder</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Timeline -->
+      <section id="education" class="education-section scroll-reveal">
+        <div class="container">
+          <div class="section-title-wrapper">
+            <h2 class="section-title">EDUCATION</h2>
+            <span class="section-subtitle-line"></span>
+          </div>
+
+          <div class="timeline-container">
+            <div class="timeline-line"></div>
+
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item timeline-left">
+              <div class="timeline-node">
+                <div class="node-dot"></div>
+              </div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">2022 - 2026</span>
+                <h3 class="timeline-degree">
+                  B.Tech in Computer Science Engineering
+                </h3>
+                <h4 class="timeline-institution">
+                  Srinivasa Institute of Engineering and Technology
+                </h4>
+                <p class="timeline-desc">
+                  Engaged in core coursework including Data Structures,
+                  Algorithms, Databases, Software Engineering, and AI/Machine
+                  Learning methodologies.
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item timeline-right">
+              <div class="timeline-node">
+                <div class="node-dot"></div>
+              </div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">2020 - 2022</span>
+                <h3 class="timeline-degree">Intermediate Education</h3>
+                <h4 class="timeline-institution">
+                  Dr MGR Junior Government College
+                </h4>
+                <p class="timeline-desc">
+                  Specialized in Mathematics, Physics, and Chemistry (MPC),
+                  building analytical thinking patterns and solid mathematics
+                  basics.
+                </p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item timeline-left">
+              <div class="timeline-node">
+                <div class="node-dot"></div>
+              </div>
+              <div class="timeline-content glass-card">
+                <span class="timeline-date">2020</span>
+                <h3 class="timeline-degree">
+                  SSC (Secondary School Certificate)
+                </h3>
+                <h4 class="timeline-institution">
+                  DR DS Raju AP Residential School
+                </h4>
+                <p class="timeline-desc">
+                  Completed high school studies with high academic standing,
+                  participating in sports and science exhibitions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section scroll-reveal">
+        <div class="container">
+          <div class="section-title-wrapper">
+            <h2 class="section-title">MY SKILLS</h2>
+            <span class="section-subtitle-line"></span>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Skills Cards Column 1 -->
+            <div class="skills-category-card glass-card">
+              <h3 class="category-title">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#D4AF37"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+                Frontend Development
+              </h3>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-90"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-80"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Cards Column 2 -->
+            <div class="skills-category-card glass-card">
+              <h3 class="category-title">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#D4AF37"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                Programming
+              </h3>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-75"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-80"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Cards Column 3 -->
+            <div class="skills-category-card glass-card">
+              <h3 class="category-title">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#D4AF37"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                  <path d="M3 12A9 3 0 0 0 21 12"></path>
+                </svg>
+                Databases
+              </h3>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MySQL</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar-bg">
+                  <div class="skill-bar-fill fill-80"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills Cards Column 4 -->
+            <div class="skills-category-card glass-card">
+              <h3 class="category-title">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#D4AF37"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="12 6 12 12 16 14"></polygon>
+                </svg>
+                Tools & Systems
+              </h3>
+              <div class="skills-tools-list">
+                <div class="tool-pill">
+                  <span class="tool-icon">📁</span> Git
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-icon">🐙</span> GitHub
+                </div>
+                <div class="tool-pill">
+                  <span class="tool-icon">📝</span> MS Word
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects Section -->
+      <section id="projects" class="projects-section scroll-reveal">
+        <div class="container">
+          <div class="section-title-wrapper">
+            <h2 class="section-title">FEATURED PROJECT</h2>
+            <span class="section-subtitle-line"></span>
+          </div>
+
+          <div class="featured-project-card glass-card">
+            <div class="project-image-box">
+              <img
+                src="assets/project_fakenews.png"
+                alt="Fake News Detection System Dashboard Mockup"
+                class="project-img"
+              />
+              <div class="project-img-overlay"></div>
+            </div>
+            <div class="project-info-box">
+              <span class="project-tag-featured">FEATURED WORK</span>
+              <h3 class="project-card-title">
+                Fake News Detection Using NLP and Machine Learning
+              </h3>
+              <p class="project-description">
+                Developed an automated Fake News Detection system using Natural
+                Language Processing and Machine Learning techniques. The system
+                preprocesses text by removing stop words and unwanted
+                characters, converts text using TF-IDF vectorization, and
+                classifies news as Real or Fake using Multinomial Naive Bayes.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">TF-IDF</span>
+                <span class="tag">Scikit-Learn</span>
+              </div>
+              <div class="project-buttons">
+                <!-- Project action links -->
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  class="btn btn-secondary project-btn"
+                >
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+                <a href="#" class="btn btn-primary project-btn">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications and Internships -->
+      <section id="certifications" class="cert-intern-section scroll-reveal">
+        <div class="container">
+          <div class="cert-intern-grid">
+            <!-- Certifications Column -->
+            <div class="certifications-col">
+              <div class="section-title-wrapper align-left">
+                <h2 class="section-title">CERTIFICATIONS</h2>
+                <span class="section-subtitle-line"></span>
+              </div>
+
+              <div class="cert-cards-list">
+                <div class="cert-card glass-card">
+                  <div class="cert-icon">🎓</div>
+                  <div class="cert-info">
+                    <h4>NPTEL Data Science using Python</h4>
+                    <p>
+                      Advanced certification focusing on Python statistical
+                      libraries, pandas, and data manipulation techniques.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="cert-card glass-card">
+                  <div class="cert-icon">☁️</div>
+                  <div class="cert-info">
+                    <h4>Google Cloud Generative AI</h4>
+                    <p>
+                      EduSkills certified program exploring Large Language
+                      Models, Prompt Engineering, and Cloud AI deployment.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="cert-card glass-card">
+                  <div class="cert-icon">☕</div>
+                  <div class="cert-info">
+                    <h4>Java Programming</h4>
+                    <p>
+                      EDX accredited foundational Java certificate covering
+                      object-oriented models, inheritance, and collections.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="cert-card glass-card">
+                  <div class="cert-icon">📊</div>
+                  <div class="cert-info">
+                    <h4>Data Science</h4>
+                    <p>
+                      EDX validated certification in general data science
+                      pathways, metrics, and visualization modules.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Internship Column -->
+            <div class="internship-col">
+              <div class="section-title-wrapper align-left">
+                <h2 class="section-title">INTERNSHIPS</h2>
+                <span class="section-subtitle-line"></span>
+              </div>
+
+              <div class="intern-timeline">
+                <div class="intern-card glass-card">
+                  <div class="intern-header">
+                    <span class="intern-date-tag"
+                      >Google Virtual Internship</span
+                    >
+                    <h4>Data Science Using Python</h4>
+                  </div>
+                  <p class="intern-description">
+                    Worked on complex Python-based data analysis pipelines,
+                    regression/classification frameworks, and dynamic
+                    application prototypes while gaining hands-on exposure to
+                    industry-grade coding conventions and clean documentation
+                    structures.
+                  </p>
+                  <ul class="intern-points">
+                    <li>
+                      Preprocessed large-scale datasets, removing noise and
+                      formatting outliers.
+                    </li>
+                    <li>
+                      Implemented predictive algorithms and measured statistical
+                      performance matrices.
+                    </li>
+                    <li>
+                      Collaborated virtually following modern development
+                      standards.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section id="achievements" class="achievements-section scroll-reveal">
+        <div class="container">
+          <div class="section-title-wrapper">
+            <h2 class="section-title">ACHIEVEMENTS</h2>
+            <span class="section-subtitle-line"></span>
+          </div>
+
+          <div class="achievements-grid">
+            <!-- Card 1: Chess -->
+            <div class="achievement-card glass-card">
+              <div class="achievement-icon-wrapper">
+                <span class="achievement-icon-big">🏆</span>
+              </div>
+              <h3 class="achievement-title">District Chess Player</h3>
+              <p class="achievement-desc">
+                Participated in district-level chess championships, training
+                analytical thinking, situational assessment, and complex
+                planning capabilities.
+              </p>
+            </div>
+
+            <!-- Card 2: Community Service -->
+            <div class="achievement-card glass-card">
+              <div class="achievement-icon-wrapper">
+                <span class="achievement-icon-big">🤝</span>
+              </div>
+              <h3 class="achievement-title">Community Service</h3>
+              <p class="achievement-desc">
+                Dedicated contributor to community service projects, managing
+                volunteer initiatives and social-impact operations.
+              </p>
+            </div>
+
+            <!-- Card 3: Campus Event Organizer -->
+            <div class="achievement-card glass-card">
+              <div class="achievement-icon-wrapper">
+                <span class="achievement-icon-big">🎓</span>
+              </div>
+              <h3 class="achievement-title">Campus Event Organizer</h3>
+              <p class="achievement-desc">
+                Led organizational efforts for multiple college technical
+                events, coding contests, and orientation assemblies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section scroll-reveal">
+        <div class="container">
+          <div class="section-title-wrapper">
+            <h2 class="section-title">CONTACT ME</h2>
+            <span class="section-subtitle-line"></span>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Cards Details -->
+            <div class="contact-info-cards">
+              <h3 class="contact-subtitle">Get In Touch</h3>
+              <p class="contact-text">
+                Whether you want to discuss a new software project, ask details
+                about my work, or discuss job opportunities, my inbox is always
+                open.
+              </p>
+
+              <div class="info-card glass-card">
+                <div class="info-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span>Email Me</span>
+                  <a href="mailto:sriramprasannakumark@gmail.com"
+                    >sriramprasannakumark@gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="info-card glass-card">
+                <div class="info-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span>Call Me</span>
+                  <a href="tel:+919063954988">+91 90639 54988</a>
+                </div>
+              </div>
+
+              <div class="info-card glass-card">
+                <div class="info-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#D4AF37"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-content">
+                  <span>Location</span>
+                  <p>Andhra Pradesh, India</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form Box -->
+            <div class="contact-form-box glass-card">
+              <form action="#" class="contact-form">
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="johndoe@example.com"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Project Discussion"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message here..."
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary form-submit-btn">
+                  <span>Send Message</span>
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container footer-container">
+          <div class="footer-socials">
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              class="social-icon"
+              aria-label="LinkedIn"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              class="social-icon"
+              aria-label="GitHub"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="mailto:sriramprasannakumark@gmail.com"
+              class="social-icon"
+              aria-label="Email"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+          <p class="footer-attribution">
+            Designed & Developed by <span>Karri Sriram Prasanna Kumar</span>
+          </p>
+          <p class="footer-copyright">
+            Copyright &copy; 2026. All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
